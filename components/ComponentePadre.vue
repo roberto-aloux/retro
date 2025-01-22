@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <main>
       <h1>Lista de Frutas</h1>
       <!-- Enviar la lista al hijo y escuchar la selección -->
       <ComponenteHijo :listaPro="frutas" @seleccionar="manejarSeleccion" />
@@ -8,7 +8,7 @@
       <p v-if="frutaSeleccionada">
         Fruta seleccionada: <p>{{ frutaSeleccionada }}</p>
       </p>
-    </div>
+    </main>
   </template>
   
   <script>
