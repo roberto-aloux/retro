@@ -31,6 +31,7 @@ import ComponentePadre from "@/components/ComponentePadre.vue";
 export default {
   components: {
     ComponentePadre,
+    
   },
   computed: {
     nombreUsuarioGuardado: {
